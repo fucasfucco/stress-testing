@@ -31,7 +31,7 @@
         <stringProp name="HTTPSampler.implementation"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager">
         <collectionProp name="CookieManager.cookies"/>
         <boolProp name="CookieManager.clearEachIteration">false</boolProp>
         <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
@@ -63,7 +63,7 @@
         <stringProp name="variableNames">termoBusca</stringProp>
       </kg.apc.jmeter.config.redis.RedisDataSet>
       <hashTree/>
-      <kg.apc.jmeter.config.redis.RedisDataSet guiclass="TestBeanGUI" testclass="kg.apc.jmeter.config.redis.RedisDataSet" testname="urlCategoria - Redis" enabled="true">
+      <kg.apc.jmeter.config.redis.RedisDataSet guiclass="TestBeanGUI" testclass="kg.apc.jmeter.config.redis.RedisDataSet" testname="urlCategoria - Redis">
         <boolProp name="blockWhenExhausted">false</boolProp>
         <stringProp name="database">0</stringProp>
         <stringProp name="delimiter">;</stringProp>
@@ -89,7 +89,7 @@
         <stringProp name="variableNames">urlCategoria</stringProp>
       </kg.apc.jmeter.config.redis.RedisDataSet>
       <hashTree/>
-      <kg.apc.jmeter.config.redis.RedisDataSet guiclass="TestBeanGUI" testclass="kg.apc.jmeter.config.redis.RedisDataSet" testname="urlProduto, sku, sellerId, skuGroup - Redis" enabled="true">
+      <kg.apc.jmeter.config.redis.RedisDataSet guiclass="TestBeanGUI" testclass="kg.apc.jmeter.config.redis.RedisDataSet" testname="urlProduto, sku, sellerId, skuGroup - Redis">
         <boolProp name="blockWhenExhausted">false</boolProp>
         <stringProp name="database">0</stringProp>
         <stringProp name="delimiter">;</stringProp>
@@ -115,7 +115,7 @@
         <stringProp name="variableNames">urlProduto,sku,sellerId,skuGroup</stringProp>
       </kg.apc.jmeter.config.redis.RedisDataSet>
       <hashTree/>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Execução - Desktop" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Execução - Desktop">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1620085654">
             <stringProp name="53">5</stringProp>
@@ -781,7 +781,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Realizar busca" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Realizar busca">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
@@ -1579,7 +1579,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Acessar categoria" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Acessar categoria">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
